@@ -106,7 +106,7 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
+    agentRadius: 0.75
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
@@ -114,7 +114,7 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.25
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 23aa955bd75047e4293a9d24eb7fdef3, type: 2}
 --- !u!1 &7241839
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,12 +135,12 @@ GameObject:
   - component: {fileID: 7241842}
   - component: {fileID: 7241841}
   - component: {fileID: 7241840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EndHallway1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &7241840
 BoxCollider:
@@ -232,12 +232,12 @@ GameObject:
   - component: {fileID: 17105180}
   - component: {fileID: 17105179}
   - component: {fileID: 17105178}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &17105177
 Transform:
@@ -329,12 +329,12 @@ GameObject:
   - component: {fileID: 22042545}
   - component: {fileID: 22042544}
   - component: {fileID: 22042543}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EndHallway1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &22042543
 BoxCollider:
@@ -426,12 +426,12 @@ GameObject:
   - component: {fileID: 25212159}
   - component: {fileID: 25212158}
   - component: {fileID: 25212157}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &25212157
 BoxCollider:
@@ -523,12 +523,12 @@ GameObject:
   - component: {fileID: 48499885}
   - component: {fileID: 48499884}
   - component: {fileID: 48499883}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &48499883
 BoxCollider:
@@ -620,12 +620,12 @@ GameObject:
   - component: {fileID: 77364154}
   - component: {fileID: 77364153}
   - component: {fileID: 77364152}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &77364152
 BoxCollider:
@@ -717,12 +717,12 @@ GameObject:
   - component: {fileID: 80796601}
   - component: {fileID: 80796600}
   - component: {fileID: 80796599}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &80796599
 BoxCollider:
@@ -814,12 +814,12 @@ GameObject:
   - component: {fileID: 91124152}
   - component: {fileID: 91124151}
   - component: {fileID: 91124150}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &91124149
 Transform:
@@ -911,12 +911,12 @@ GameObject:
   - component: {fileID: 96095753}
   - component: {fileID: 96095752}
   - component: {fileID: 96095751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &96095750
 Transform:
@@ -1008,12 +1008,12 @@ GameObject:
   - component: {fileID: 124145428}
   - component: {fileID: 124145427}
   - component: {fileID: 124145426}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &124145425
 Transform:
@@ -1105,12 +1105,12 @@ GameObject:
   - component: {fileID: 142102873}
   - component: {fileID: 142102872}
   - component: {fileID: 142102871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &142102871
 BoxCollider:
@@ -1202,12 +1202,12 @@ GameObject:
   - component: {fileID: 161969496}
   - component: {fileID: 161969495}
   - component: {fileID: 161969494}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &161969494
 BoxCollider:
@@ -1299,12 +1299,12 @@ GameObject:
   - component: {fileID: 169378760}
   - component: {fileID: 169378759}
   - component: {fileID: 169378758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &169378758
 BoxCollider:
@@ -1396,12 +1396,12 @@ GameObject:
   - component: {fileID: 173176803}
   - component: {fileID: 173176802}
   - component: {fileID: 173176801}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &173176801
 BoxCollider:
@@ -1493,12 +1493,12 @@ GameObject:
   - component: {fileID: 178430618}
   - component: {fileID: 178430617}
   - component: {fileID: 178430616}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &178430616
 BoxCollider:
@@ -1590,12 +1590,12 @@ GameObject:
   - component: {fileID: 184306584}
   - component: {fileID: 184306583}
   - component: {fileID: 184306582}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MapPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &184306582
 BoxCollider:
@@ -1618,7 +1618,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184306581}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -1630,7 +1630,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0e0f7410701515b489b30a0641866b08, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1687,12 +1687,12 @@ GameObject:
   - component: {fileID: 194071958}
   - component: {fileID: 194071957}
   - component: {fileID: 194071956}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &194071956
 BoxCollider:
@@ -1772,6 +1772,103 @@ Transform:
   m_Father: {fileID: 920490961}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &220412914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 220412918}
+  - component: {fileID: 220412917}
+  - component: {fileID: 220412916}
+  - component: {fileID: 220412915}
+  m_Layer: 7
+  m_Name: EscapePlatform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!65 &220412915
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220412914}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &220412916
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220412914}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &220412917
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220412914}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &220412918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220412914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.21, y: 0.59, z: 29.24}
+  m_LocalScale: {x: 5, y: 0.2, z: 3.7}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &228911849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,12 +1881,12 @@ GameObject:
   - component: {fileID: 228911852}
   - component: {fileID: 228911851}
   - component: {fileID: 228911850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &228911850
 BoxCollider:
@@ -1881,12 +1978,12 @@ GameObject:
   - component: {fileID: 248034034}
   - component: {fileID: 248034033}
   - component: {fileID: 248034032}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &248034031
 Transform:
@@ -1978,12 +2075,12 @@ GameObject:
   - component: {fileID: 252770308}
   - component: {fileID: 252770307}
   - component: {fileID: 252770306}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: StartHallway1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &252770306
 BoxCollider:
@@ -2075,12 +2172,12 @@ GameObject:
   - component: {fileID: 290493151}
   - component: {fileID: 290493150}
   - component: {fileID: 290493149}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &290493149
 BoxCollider:
@@ -2172,12 +2269,12 @@ GameObject:
   - component: {fileID: 299952636}
   - component: {fileID: 299952635}
   - component: {fileID: 299952634}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &299952634
 BoxCollider:
@@ -2269,12 +2366,12 @@ GameObject:
   - component: {fileID: 313402971}
   - component: {fileID: 313402970}
   - component: {fileID: 313402969}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &313402969
 BoxCollider:
@@ -2370,8 +2467,8 @@ GameObject:
   m_Name: TorchRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!136 &316771943
 CapsuleCollider:
@@ -2464,12 +2561,12 @@ GameObject:
   - component: {fileID: 323255998}
   - component: {fileID: 323255997}
   - component: {fileID: 323255996}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (97)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &323255995
 Transform:
@@ -2561,12 +2658,12 @@ GameObject:
   - component: {fileID: 323662768}
   - component: {fileID: 323662767}
   - component: {fileID: 323662766}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &323662765
 Transform:
@@ -2658,12 +2755,12 @@ GameObject:
   - component: {fileID: 330731937}
   - component: {fileID: 330731936}
   - component: {fileID: 330731935}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &330731934
 Transform:
@@ -2755,12 +2852,12 @@ GameObject:
   - component: {fileID: 350064876}
   - component: {fileID: 350064875}
   - component: {fileID: 350064874}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &350064874
 BoxCollider:
@@ -2852,12 +2949,12 @@ GameObject:
   - component: {fileID: 357297040}
   - component: {fileID: 357297039}
   - component: {fileID: 357297038}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &357297037
 Transform:
@@ -2949,12 +3046,12 @@ GameObject:
   - component: {fileID: 365331275}
   - component: {fileID: 365331274}
   - component: {fileID: 365331273}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &365331272
 Transform:
@@ -3046,12 +3143,12 @@ GameObject:
   - component: {fileID: 408036219}
   - component: {fileID: 408036218}
   - component: {fileID: 408036217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &408036216
 Transform:
@@ -3143,12 +3240,12 @@ GameObject:
   - component: {fileID: 476354376}
   - component: {fileID: 476354375}
   - component: {fileID: 476354374}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &476354374
 BoxCollider:
@@ -3240,12 +3337,12 @@ GameObject:
   - component: {fileID: 478886861}
   - component: {fileID: 478886860}
   - component: {fileID: 478886859}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &478886858
 Transform:
@@ -3337,12 +3434,12 @@ GameObject:
   - component: {fileID: 490768001}
   - component: {fileID: 490768000}
   - component: {fileID: 490767999}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &490767999
 BoxCollider:
@@ -3434,12 +3531,12 @@ GameObject:
   - component: {fileID: 493595246}
   - component: {fileID: 493595245}
   - component: {fileID: 493595244}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &493595244
 BoxCollider:
@@ -3531,12 +3628,12 @@ GameObject:
   - component: {fileID: 502749741}
   - component: {fileID: 502749740}
   - component: {fileID: 502749739}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &502749739
 BoxCollider:
@@ -3628,12 +3725,12 @@ GameObject:
   - component: {fileID: 508158309}
   - component: {fileID: 508158308}
   - component: {fileID: 508158307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &508158307
 BoxCollider:
@@ -3725,12 +3822,12 @@ GameObject:
   - component: {fileID: 510648383}
   - component: {fileID: 510648382}
   - component: {fileID: 510648381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &510648381
 BoxCollider:
@@ -3822,12 +3919,12 @@ GameObject:
   - component: {fileID: 546832429}
   - component: {fileID: 546832428}
   - component: {fileID: 546832427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &546832427
 BoxCollider:
@@ -3907,6 +4004,103 @@ Transform:
   m_Father: {fileID: 920490961}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: -141.588, z: 0}
+--- !u!1 &554124528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 554124532}
+  - component: {fileID: 554124531}
+  - component: {fileID: 554124530}
+  - component: {fileID: 554124529}
+  m_Layer: 7
+  m_Name: EscapePlatform (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!65 &554124529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554124528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &554124530
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554124528}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &554124531
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554124528}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &554124532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554124528}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 54.77, y: 0.59, z: -80.7}
+  m_LocalScale: {x: 2.01605, y: 0.2, z: 3.7}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &561223873
 GameObject:
   m_ObjectHideFlags: 0
@@ -3919,12 +4113,12 @@ GameObject:
   - component: {fileID: 561223877}
   - component: {fileID: 561223876}
   - component: {fileID: 561223875}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &561223874
 Transform:
@@ -4016,12 +4210,12 @@ GameObject:
   - component: {fileID: 578193755}
   - component: {fileID: 578193754}
   - component: {fileID: 578193753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &578193752
 Transform:
@@ -4117,8 +4311,8 @@ GameObject:
   m_Name: CenterColumn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!136 &603171195
 CapsuleCollider:
@@ -4211,12 +4405,12 @@ GameObject:
   - component: {fileID: 625450735}
   - component: {fileID: 625450734}
   - component: {fileID: 625450733}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &625450732
 Transform:
@@ -4308,12 +4502,12 @@ GameObject:
   - component: {fileID: 652119543}
   - component: {fileID: 652119542}
   - component: {fileID: 652119541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &652119540
 Transform:
@@ -4405,12 +4599,12 @@ GameObject:
   - component: {fileID: 655522529}
   - component: {fileID: 655522528}
   - component: {fileID: 655522527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &655522526
 Transform:
@@ -4502,12 +4696,12 @@ GameObject:
   - component: {fileID: 657255169}
   - component: {fileID: 657255168}
   - component: {fileID: 657255167}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &657255166
 Transform:
@@ -4599,12 +4793,12 @@ GameObject:
   - component: {fileID: 657437515}
   - component: {fileID: 657437514}
   - component: {fileID: 657437513}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &657437513
 BoxCollider:
@@ -4696,12 +4890,12 @@ GameObject:
   - component: {fileID: 678280500}
   - component: {fileID: 678280499}
   - component: {fileID: 678280498}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &678280497
 Transform:
@@ -4887,12 +5081,12 @@ GameObject:
   - component: {fileID: 736265335}
   - component: {fileID: 736265334}
   - component: {fileID: 736265333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &736265332
 Transform:
@@ -4984,12 +5178,12 @@ GameObject:
   - component: {fileID: 751527525}
   - component: {fileID: 751527524}
   - component: {fileID: 751527523}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &751527523
 BoxCollider:
@@ -5081,12 +5275,12 @@ GameObject:
   - component: {fileID: 767141672}
   - component: {fileID: 767141671}
   - component: {fileID: 767141670}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &767141669
 Transform:
@@ -5178,12 +5372,12 @@ GameObject:
   - component: {fileID: 784499497}
   - component: {fileID: 784499496}
   - component: {fileID: 784499495}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &784499494
 Transform:
@@ -5275,12 +5469,12 @@ GameObject:
   - component: {fileID: 788766931}
   - component: {fileID: 788766930}
   - component: {fileID: 788766929}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &788766929
 BoxCollider:
@@ -5371,7 +5565,7 @@ GameObject:
   - component: {fileID: 809126042}
   - component: {fileID: 809126041}
   - component: {fileID: 809126040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FP Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5391,7 +5585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 809126041}
-  speed: 12
+  speed: 20
 --- !u!143 &809126041
 CharacterController:
   m_ObjectHideFlags: 0
@@ -5439,12 +5633,12 @@ GameObject:
   - component: {fileID: 816464228}
   - component: {fileID: 816464227}
   - component: {fileID: 816464226}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EndHallway1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &816464226
 BoxCollider:
@@ -5536,12 +5730,12 @@ GameObject:
   - component: {fileID: 832448346}
   - component: {fileID: 832448345}
   - component: {fileID: 832448344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &832448343
 Transform:
@@ -5633,12 +5827,12 @@ GameObject:
   - component: {fileID: 843834395}
   - component: {fileID: 843834394}
   - component: {fileID: 843834393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &843834392
 Transform:
@@ -5730,12 +5924,12 @@ GameObject:
   - component: {fileID: 855380412}
   - component: {fileID: 855380411}
   - component: {fileID: 855380410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &855380410
 BoxCollider:
@@ -5827,12 +6021,12 @@ GameObject:
   - component: {fileID: 902382116}
   - component: {fileID: 902382115}
   - component: {fileID: 902382114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &902382114
 BoxCollider:
@@ -6067,12 +6261,12 @@ GameObject:
   - component: {fileID: 922782618}
   - component: {fileID: 922782617}
   - component: {fileID: 922782616}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &922782616
 BoxCollider:
@@ -6164,12 +6358,12 @@ GameObject:
   - component: {fileID: 931200178}
   - component: {fileID: 931200177}
   - component: {fileID: 931200176}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &931200176
 BoxCollider:
@@ -6261,12 +6455,12 @@ GameObject:
   - component: {fileID: 938861732}
   - component: {fileID: 938861731}
   - component: {fileID: 938861730}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EndHallway1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &938861730
 BoxCollider:
@@ -6358,12 +6552,12 @@ GameObject:
   - component: {fileID: 946155893}
   - component: {fileID: 946155892}
   - component: {fileID: 946155891}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &946155891
 BoxCollider:
@@ -6455,12 +6649,12 @@ GameObject:
   - component: {fileID: 957718847}
   - component: {fileID: 957718846}
   - component: {fileID: 957718845}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &957718845
 BoxCollider:
@@ -6552,7 +6746,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -6651,12 +6845,12 @@ GameObject:
   - component: {fileID: 975825534}
   - component: {fileID: 975825533}
   - component: {fileID: 975825532}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &975825532
 BoxCollider:
@@ -6748,12 +6942,12 @@ GameObject:
   - component: {fileID: 983461417}
   - component: {fileID: 983461416}
   - component: {fileID: 983461415}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &983461415
 BoxCollider:
@@ -6845,12 +7039,12 @@ GameObject:
   - component: {fileID: 991722452}
   - component: {fileID: 991722451}
   - component: {fileID: 991722450}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &991722450
 BoxCollider:
@@ -6942,12 +7136,12 @@ GameObject:
   - component: {fileID: 1009717961}
   - component: {fileID: 1009717960}
   - component: {fileID: 1009717959}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1009717959
 BoxCollider:
@@ -7039,12 +7233,12 @@ GameObject:
   - component: {fileID: 1009838471}
   - component: {fileID: 1009838470}
   - component: {fileID: 1009838469}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1009838469
 BoxCollider:
@@ -7136,12 +7330,12 @@ GameObject:
   - component: {fileID: 1013729476}
   - component: {fileID: 1013729475}
   - component: {fileID: 1013729474}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1013729474
 BoxCollider:
@@ -7233,12 +7427,12 @@ GameObject:
   - component: {fileID: 1064452383}
   - component: {fileID: 1064452382}
   - component: {fileID: 1064452381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1064452380
 Transform:
@@ -7330,12 +7524,12 @@ GameObject:
   - component: {fileID: 1096310087}
   - component: {fileID: 1096310086}
   - component: {fileID: 1096310085}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: StartHallway2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1096310085
 BoxCollider:
@@ -7427,12 +7621,12 @@ GameObject:
   - component: {fileID: 1123982853}
   - component: {fileID: 1123982852}
   - component: {fileID: 1123982851}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1123982851
 BoxCollider:
@@ -7524,12 +7718,12 @@ GameObject:
   - component: {fileID: 1139486460}
   - component: {fileID: 1139486459}
   - component: {fileID: 1139486458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1139486458
 BoxCollider:
@@ -7621,12 +7815,12 @@ GameObject:
   - component: {fileID: 1150627636}
   - component: {fileID: 1150627635}
   - component: {fileID: 1150627634}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1150627633
 Transform:
@@ -7718,12 +7912,12 @@ GameObject:
   - component: {fileID: 1172108845}
   - component: {fileID: 1172108844}
   - component: {fileID: 1172108843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1172108843
 BoxCollider:
@@ -7815,12 +8009,12 @@ GameObject:
   - component: {fileID: 1186083960}
   - component: {fileID: 1186083959}
   - component: {fileID: 1186083958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1186083958
 BoxCollider:
@@ -7912,12 +8106,12 @@ GameObject:
   - component: {fileID: 1219923530}
   - component: {fileID: 1219923529}
   - component: {fileID: 1219923528}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1219923528
 BoxCollider:
@@ -8009,12 +8203,12 @@ GameObject:
   - component: {fileID: 1239503074}
   - component: {fileID: 1239503073}
   - component: {fileID: 1239503072}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1239503071
 Transform:
@@ -8106,12 +8300,12 @@ GameObject:
   - component: {fileID: 1241039667}
   - component: {fileID: 1241039666}
   - component: {fileID: 1241039665}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1241039665
 BoxCollider:
@@ -8203,12 +8397,12 @@ GameObject:
   - component: {fileID: 1252709607}
   - component: {fileID: 1252709606}
   - component: {fileID: 1252709605}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1252709604
 Transform:
@@ -8300,12 +8494,12 @@ GameObject:
   - component: {fileID: 1295017713}
   - component: {fileID: 1295017712}
   - component: {fileID: 1295017711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1295017711
 BoxCollider:
@@ -8397,12 +8591,12 @@ GameObject:
   - component: {fileID: 1296070650}
   - component: {fileID: 1296070649}
   - component: {fileID: 1296070648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1296070647
 Transform:
@@ -8482,6 +8676,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296070646}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1337515954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1337515958}
+  - component: {fileID: 1337515957}
+  - component: {fileID: 1337515956}
+  - component: {fileID: 1337515955}
+  m_Layer: 7
+  m_Name: EscapePlatform (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!65 &1337515955
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337515954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1337515956
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337515954}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1337515957
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337515954}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1337515958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337515954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 189.11, y: 0.59, z: 97.71}
+  m_LocalScale: {x: 3.7486594, y: 0.2, z: 3.7}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1377890276
 GameObject:
   m_ObjectHideFlags: 0
@@ -8494,12 +8785,12 @@ GameObject:
   - component: {fileID: 1377890279}
   - component: {fileID: 1377890278}
   - component: {fileID: 1377890277}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1377890277
 BoxCollider:
@@ -8591,12 +8882,12 @@ GameObject:
   - component: {fileID: 1378233243}
   - component: {fileID: 1378233242}
   - component: {fileID: 1378233241}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1378233241
 BoxCollider:
@@ -8688,12 +8979,12 @@ GameObject:
   - component: {fileID: 1396590703}
   - component: {fileID: 1396590702}
   - component: {fileID: 1396590701}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1396590701
 BoxCollider:
@@ -8785,12 +9076,12 @@ GameObject:
   - component: {fileID: 1406314538}
   - component: {fileID: 1406314537}
   - component: {fileID: 1406314536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1406314535
 Transform:
@@ -8882,12 +9173,12 @@ GameObject:
   - component: {fileID: 1406896997}
   - component: {fileID: 1406896996}
   - component: {fileID: 1406896995}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1406896995
 BoxCollider:
@@ -8967,6 +9258,103 @@ Transform:
   m_Father: {fileID: 920490961}
   m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 37.484, z: 0}
+--- !u!1 &1417880177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1417880181}
+  - component: {fileID: 1417880180}
+  - component: {fileID: 1417880179}
+  - component: {fileID: 1417880178}
+  m_Layer: 7
+  m_Name: EscapePlatform (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!65 &1417880178
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417880177}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1417880179
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417880177}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1417880180
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417880177}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1417880181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417880177}
+  m_LocalRotation: {x: -0, y: -0.43032306, z: -0, w: 0.902675}
+  m_LocalPosition: {x: 72.63, y: 0.59, z: 120.19}
+  m_LocalScale: {x: 3.52815, y: 0.2, z: 3.7}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: -50.976, z: 0}
 --- !u!1 &1428840537
 GameObject:
   m_ObjectHideFlags: 0
@@ -8979,12 +9367,12 @@ GameObject:
   - component: {fileID: 1428840540}
   - component: {fileID: 1428840539}
   - component: {fileID: 1428840538}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1428840538
 BoxCollider:
@@ -9076,12 +9464,12 @@ GameObject:
   - component: {fileID: 1441827025}
   - component: {fileID: 1441827024}
   - component: {fileID: 1441827023}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1441827022
 Transform:
@@ -9173,12 +9561,12 @@ GameObject:
   - component: {fileID: 1442336799}
   - component: {fileID: 1442336798}
   - component: {fileID: 1442336797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1442336797
 BoxCollider:
@@ -9270,12 +9658,12 @@ GameObject:
   - component: {fileID: 1465105012}
   - component: {fileID: 1465105011}
   - component: {fileID: 1465105010}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1465105010
 BoxCollider:
@@ -9367,12 +9755,12 @@ GameObject:
   - component: {fileID: 1479105463}
   - component: {fileID: 1479105462}
   - component: {fileID: 1479105461}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1479105461
 BoxCollider:
@@ -9464,12 +9852,12 @@ GameObject:
   - component: {fileID: 1491273231}
   - component: {fileID: 1491273230}
   - component: {fileID: 1491273229}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1491273229
 BoxCollider:
@@ -9561,7 +9949,7 @@ GameObject:
   - component: {fileID: 1533427031}
   - component: {fileID: 1533427030}
   - component: {fileID: 1533427029}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9659,12 +10047,12 @@ GameObject:
   - component: {fileID: 1553157345}
   - component: {fileID: 1553157344}
   - component: {fileID: 1553157343}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1553157343
 BoxCollider:
@@ -9756,12 +10144,12 @@ GameObject:
   - component: {fileID: 1575652396}
   - component: {fileID: 1575652395}
   - component: {fileID: 1575652394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1575652393
 Transform:
@@ -9853,12 +10241,12 @@ GameObject:
   - component: {fileID: 1578580331}
   - component: {fileID: 1578580330}
   - component: {fileID: 1578580329}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1578580329
 BoxCollider:
@@ -9950,12 +10338,12 @@ GameObject:
   - component: {fileID: 1582402424}
   - component: {fileID: 1582402423}
   - component: {fileID: 1582402422}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1582402422
 BoxCollider:
@@ -10047,12 +10435,12 @@ GameObject:
   - component: {fileID: 1596976938}
   - component: {fileID: 1596976937}
   - component: {fileID: 1596976936}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1596976935
 Transform:
@@ -10132,6 +10520,147 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596976934}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1598514221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598514226}
+  - component: {fileID: 1598514225}
+  - component: {fileID: 1598514224}
+  - component: {fileID: 1598514223}
+  - component: {fileID: 1598514222}
+  - component: {fileID: 1598514227}
+  m_Layer: 0
+  m_Name: Minotaur
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!195 &1598514222
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598514221}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 6
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!136 &1598514223
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598514221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1598514224
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598514221}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1598514225
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598514221}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1598514226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598514221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 88.62, y: 4.87, z: 25.17}
+  m_LocalScale: {x: 3.1867287, y: 4.37647, z: 3.1867287}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1598514227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598514221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcce4fa1944dc854d979d94cd78416bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  range: 200
 --- !u!1 &1605033159
 GameObject:
   m_ObjectHideFlags: 0
@@ -10144,12 +10673,12 @@ GameObject:
   - component: {fileID: 1605033162}
   - component: {fileID: 1605033161}
   - component: {fileID: 1605033160}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1605033160
 BoxCollider:
@@ -10295,8 +10824,8 @@ GameObject:
   m_Name: TorchLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!136 &1629814267
 CapsuleCollider:
@@ -10389,12 +10918,12 @@ GameObject:
   - component: {fileID: 1632540743}
   - component: {fileID: 1632540742}
   - component: {fileID: 1632540741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1632540741
 BoxCollider:
@@ -10486,12 +11015,12 @@ GameObject:
   - component: {fileID: 1644851400}
   - component: {fileID: 1644851399}
   - component: {fileID: 1644851398}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1644851398
 BoxCollider:
@@ -10583,12 +11112,12 @@ GameObject:
   - component: {fileID: 1648519295}
   - component: {fileID: 1648519294}
   - component: {fileID: 1648519293}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1648519293
 BoxCollider:
@@ -10680,12 +11209,12 @@ GameObject:
   - component: {fileID: 1654236524}
   - component: {fileID: 1654236523}
   - component: {fileID: 1654236522}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EndHallway2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1654236522
 BoxCollider:
@@ -10777,12 +11306,12 @@ GameObject:
   - component: {fileID: 1655535693}
   - component: {fileID: 1655535692}
   - component: {fileID: 1655535691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EndHallway1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1655535691
 BoxCollider:
@@ -10874,12 +11403,12 @@ GameObject:
   - component: {fileID: 1667982029}
   - component: {fileID: 1667982028}
   - component: {fileID: 1667982027}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1667982027
 BoxCollider:
@@ -10971,12 +11500,12 @@ GameObject:
   - component: {fileID: 1687926091}
   - component: {fileID: 1687926090}
   - component: {fileID: 1687926089}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1687926089
 BoxCollider:
@@ -11068,12 +11597,12 @@ GameObject:
   - component: {fileID: 1688142831}
   - component: {fileID: 1688142830}
   - component: {fileID: 1688142829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1688142828
 Transform:
@@ -11165,12 +11694,12 @@ GameObject:
   - component: {fileID: 1689918815}
   - component: {fileID: 1689918814}
   - component: {fileID: 1689918813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1689918812
 Transform:
@@ -11262,12 +11791,12 @@ GameObject:
   - component: {fileID: 1721032522}
   - component: {fileID: 1721032521}
   - component: {fileID: 1721032520}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1721032520
 BoxCollider:
@@ -11359,12 +11888,12 @@ GameObject:
   - component: {fileID: 1737565725}
   - component: {fileID: 1737565724}
   - component: {fileID: 1737565723}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1737565722
 Transform:
@@ -11456,12 +11985,12 @@ GameObject:
   - component: {fileID: 1754570943}
   - component: {fileID: 1754570942}
   - component: {fileID: 1754570941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1754570940
 Transform:
@@ -11553,12 +12082,12 @@ GameObject:
   - component: {fileID: 1765431876}
   - component: {fileID: 1765431875}
   - component: {fileID: 1765431874}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1765431874
 BoxCollider:
@@ -11650,12 +12179,12 @@ GameObject:
   - component: {fileID: 1774615746}
   - component: {fileID: 1774615745}
   - component: {fileID: 1774615744}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1774615744
 BoxCollider:
@@ -11747,12 +12276,12 @@ GameObject:
   - component: {fileID: 1781993399}
   - component: {fileID: 1781993398}
   - component: {fileID: 1781993397}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1781993396
 Transform:
@@ -11844,12 +12373,12 @@ GameObject:
   - component: {fileID: 1783010397}
   - component: {fileID: 1783010396}
   - component: {fileID: 1783010395}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1783010395
 BoxCollider:
@@ -11941,12 +12470,12 @@ GameObject:
   - component: {fileID: 1785139655}
   - component: {fileID: 1785139654}
   - component: {fileID: 1785139653}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1785139652
 Transform:
@@ -12038,12 +12567,12 @@ GameObject:
   - component: {fileID: 1810787559}
   - component: {fileID: 1810787558}
   - component: {fileID: 1810787557}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1810787557
 BoxCollider:
@@ -12135,12 +12664,12 @@ GameObject:
   - component: {fileID: 1815596697}
   - component: {fileID: 1815596696}
   - component: {fileID: 1815596695}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1815596694
 Transform:
@@ -12232,12 +12761,12 @@ GameObject:
   - component: {fileID: 1839952436}
   - component: {fileID: 1839952435}
   - component: {fileID: 1839952434}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1839952433
 Transform:
@@ -12329,12 +12858,12 @@ GameObject:
   - component: {fileID: 1840749237}
   - component: {fileID: 1840749236}
   - component: {fileID: 1840749235}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1840749234
 Transform:
@@ -12414,6 +12943,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840749233}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1853092168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1853092172}
+  - component: {fileID: 1853092171}
+  - component: {fileID: 1853092170}
+  - component: {fileID: 1853092169}
+  m_Layer: 7
+  m_Name: EscapePlatform (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!65 &1853092169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853092168}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1853092170
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853092168}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1853092171
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853092168}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1853092172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853092168}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 169.07, y: 0.59, z: -140.33}
+  m_LocalScale: {x: 2.01605, y: 0.2, z: 6.263642}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1867388885
 GameObject:
   m_ObjectHideFlags: 0
@@ -12426,12 +13052,12 @@ GameObject:
   - component: {fileID: 1867388888}
   - component: {fileID: 1867388887}
   - component: {fileID: 1867388886}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1867388886
 BoxCollider:
@@ -12523,12 +13149,12 @@ GameObject:
   - component: {fileID: 1905786170}
   - component: {fileID: 1905786169}
   - component: {fileID: 1905786168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1905786168
 BoxCollider:
@@ -12608,6 +13234,103 @@ Transform:
   m_Father: {fileID: 920490961}
   m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 51.588, z: 0}
+--- !u!1 &1979819438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1979819442}
+  - component: {fileID: 1979819441}
+  - component: {fileID: 1979819440}
+  - component: {fileID: 1979819439}
+  m_Layer: 7
+  m_Name: EscapePlatform (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!65 &1979819439
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979819438}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1979819440
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979819438}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1979819441
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979819438}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1979819442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979819438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 128.3, y: 0.59, z: -42.45}
+  m_LocalScale: {x: 2.01605, y: 0.2, z: 3.7}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1984026095
 GameObject:
   m_ObjectHideFlags: 0
@@ -12620,12 +13343,12 @@ GameObject:
   - component: {fileID: 1984026098}
   - component: {fileID: 1984026097}
   - component: {fileID: 1984026096}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &1984026096
 BoxCollider:
@@ -12717,12 +13440,12 @@ GameObject:
   - component: {fileID: 2026182840}
   - component: {fileID: 2026182839}
   - component: {fileID: 2026182838}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2026182838
 BoxCollider:
@@ -12814,12 +13537,12 @@ GameObject:
   - component: {fileID: 2032345196}
   - component: {fileID: 2032345195}
   - component: {fileID: 2032345194}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EndHallway1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2032345194
 BoxCollider:
@@ -12911,12 +13634,12 @@ GameObject:
   - component: {fileID: 2041396007}
   - component: {fileID: 2041396006}
   - component: {fileID: 2041396005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2041396005
 BoxCollider:
@@ -13008,12 +13731,12 @@ GameObject:
   - component: {fileID: 2053439703}
   - component: {fileID: 2053439702}
   - component: {fileID: 2053439701}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2053439701
 BoxCollider:
@@ -13105,12 +13828,12 @@ GameObject:
   - component: {fileID: 2054513949}
   - component: {fileID: 2054513948}
   - component: {fileID: 2054513947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2054513946
 Transform:
@@ -13202,12 +13925,12 @@ GameObject:
   - component: {fileID: 2069495435}
   - component: {fileID: 2069495434}
   - component: {fileID: 2069495433}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EndHallway1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2069495433
 BoxCollider:
@@ -13299,12 +14022,12 @@ GameObject:
   - component: {fileID: 2085633500}
   - component: {fileID: 2085633499}
   - component: {fileID: 2085633498}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2085633498
 BoxCollider:
@@ -13396,12 +14119,12 @@ GameObject:
   - component: {fileID: 2096253216}
   - component: {fileID: 2096253215}
   - component: {fileID: 2096253214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2096253214
 BoxCollider:
@@ -13493,12 +14216,12 @@ GameObject:
   - component: {fileID: 2103977336}
   - component: {fileID: 2103977335}
   - component: {fileID: 2103977334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2103977334
 BoxCollider:
@@ -13590,12 +14313,12 @@ GameObject:
   - component: {fileID: 2106277632}
   - component: {fileID: 2106277631}
   - component: {fileID: 2106277630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2106277629
 Transform:
@@ -13687,12 +14410,12 @@ GameObject:
   - component: {fileID: 2110816174}
   - component: {fileID: 2110816173}
   - component: {fileID: 2110816172}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUBWall (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!65 &2110816172
 BoxCollider:
