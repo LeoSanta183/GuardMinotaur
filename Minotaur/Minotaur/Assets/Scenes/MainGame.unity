@@ -6831,7 +6831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b7298e48c530104f9ea751cb90afe06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 1000
+  mouseSensitivity: 500
   playerBody: {fileID: 809126042}
 --- !u!1 &975825531
 GameObject:
@@ -10660,7 +10660,9 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 1024
-  range: 200
+  range: 40
+  sightRange: 10
+  attackRange: 1
 --- !u!1 &1605033159
 GameObject:
   m_ObjectHideFlags: 0

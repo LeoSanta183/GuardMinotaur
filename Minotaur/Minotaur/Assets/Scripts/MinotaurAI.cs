@@ -14,6 +14,9 @@ public class MinotaurAI : MonoBehaviour
     bool walkPointSet;
     [SerializeField] float range;
 
+    [SerializeField] float sightRange, attackRange;
+    bool playerInSight, playerInAttack;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +27,22 @@ public class MinotaurAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Patrol();
+        playerInSight = Physics.CheckSphere(transform.position, sightRange, playerLayer);
+        playerInAttack = Physics.CheckSphere(transform.position, attackRange, playerLayer);
+
+        if (!playerInSight && !playerInAttack) Patrol();
+        if (playerInSight && !playerInAttack) Chase();
+        if (playerInSight && playerInAttack) Attack();
+    }
+
+    void Attack()
+    {
+
+    }
+
+    void Chase()
+    {
+        agent.SetDestination(player.transform.position);
     }
 
     void Patrol()
