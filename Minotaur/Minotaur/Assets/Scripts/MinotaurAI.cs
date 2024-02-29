@@ -15,7 +15,7 @@ public class MinotaurAI : MonoBehaviour
     [SerializeField] float range;
 
     [SerializeField] float sightRange, attackRange;
-    bool playerInSight, playerInAttack;
+    bool playerInSight, playerInAttack, isStunned;
 
     // Start is called before the first frame update
     void Start()
@@ -30,8 +30,8 @@ public class MinotaurAI : MonoBehaviour
         playerInSight = Physics.CheckSphere(transform.position, sightRange, playerLayer);
         playerInAttack = Physics.CheckSphere(transform.position, attackRange, playerLayer);
 
-        if (!playerInSight && !playerInAttack) Patrol();
-        if (playerInSight && !playerInAttack) Chase();
+        if (!playerInSight && !playerInAttack && !isStunned) Patrol();
+        if (playerInSight && !playerInAttack && !isStunned) Chase();
         if (playerInSight && playerInAttack) Attack();
     }
 
@@ -63,5 +63,25 @@ public class MinotaurAI : MonoBehaviour
         {
             walkPointSet = true;
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            StartCoroutine(StunMinotaur());
+            Destroy(collision.gameObject);
+        }
+    }
+
+    IEnumerator StunMinotaur()
+    {
+        isStunned = true;
+        agent.isStopped = true; // Stop the Minotaur from moving
+
+        yield return new WaitForSeconds(3f); // Wait for 3 seconds
+
+        isStunned = false;
+        agent.isStopped = false; // Resume Minotaur's movement
     }
 }
