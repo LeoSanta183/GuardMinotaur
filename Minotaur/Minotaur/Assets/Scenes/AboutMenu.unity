@@ -154,9 +154,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1043166322}
   SFXSource: {fileID: 1642965602}
-  hitagain: {fileID: 0}
-  buttonHover: {fileID: 8300000, guid: 9f74200739cbc0f469f35dcbf38ba641, type: 3}
-  pickUpShotgun: {fileID: 0}
+  MinotaurBreathe: {fileID: 0}
+  MinotaurStun: {fileID: 0}
+  buttonHover: {fileID: 8300000, guid: 912c5c7acd806c84da86a812d80686f4, type: 3}
+  leverdown: {fileID: 0}
 --- !u!4 &53325739
 Transform:
   m_ObjectHideFlags: 0

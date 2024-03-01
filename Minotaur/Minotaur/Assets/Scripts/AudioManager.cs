@@ -7,9 +7,10 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource musicSource;
     [SerializeField] AudioSource SFXSource;
 
-    public AudioClip hitagain;
+    public AudioClip MinotaurBreathe; 
+    public AudioClip MinotaurStun;
     public AudioClip buttonHover;
-    public AudioClip pickUpShotgun;
+    public AudioClip leverdown;
 
     // Start is called before the first frame update
     void Start()
