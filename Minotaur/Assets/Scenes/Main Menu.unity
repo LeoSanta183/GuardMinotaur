@@ -1241,9 +1241,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 569709249}
   SFXSource: {fileID: 575517591}
-  hitagain: {fileID: 0}
-  buttonHover: {fileID: 8300000, guid: 9f74200739cbc0f469f35dcbf38ba641, type: 3}
-  pickUpShotgun: {fileID: 0}
+  MinotaurBreathe: {fileID: 0}
+  MinotaurStun: {fileID: 0}
+  buttonHover: {fileID: 8300000, guid: 912c5c7acd806c84da86a812d80686f4, type: 3}
+  leverdown: {fileID: 0}
 --- !u!4 &773924939
 Transform:
   m_ObjectHideFlags: 0
@@ -1317,7 +1318,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0867b68aac933d2448d288e46323066c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0c957c2361582e641a55655e927451c7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

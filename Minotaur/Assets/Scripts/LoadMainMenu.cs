@@ -19,12 +19,15 @@ public class LoadMainMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            LoadScene();
+        }
     }
 
     public void LoadScene()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Main Menu");
           audioManager.PlaySFX(audioManager.buttonHover);
     }
 }
