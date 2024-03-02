@@ -91,6 +91,6 @@ public class PauseMenu : MonoBehaviour
     {
         audioManager.PlaySFX(audioManager.buttonHover);
         Debug.Log("Returning to Main Menu...");
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Main Menu");
     }
 }

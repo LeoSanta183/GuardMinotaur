@@ -28,7 +28,7 @@ public class PlayButton : MonoBehaviour
 
     public void LoadScene()
     {
-      StartCoroutine(ChangeScene());
+        SceneManager.LoadScene("MainGame");
     }
     
 }
