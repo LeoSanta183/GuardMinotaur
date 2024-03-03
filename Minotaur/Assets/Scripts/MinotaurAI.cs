@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.SceneManagement;
 
 public class MinotaurAI : MonoBehaviour
 {
@@ -18,13 +17,11 @@ public class MinotaurAI : MonoBehaviour
     [SerializeField] float sightRange, attackRange;
     bool playerInSight, playerInAttack, isStunned;
 
-    public Animator animate;
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("FP Player");
-        animate = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -36,11 +33,6 @@ public class MinotaurAI : MonoBehaviour
         if (!playerInSight && !playerInAttack && !isStunned) Patrol();
         if (playerInSight && !playerInAttack && !isStunned) Chase();
         if (playerInSight && playerInAttack) Attack();
-
-        if(isStunned == true)
-        {
-             animate.SetTrigger("Standing");
-        }
     }
 
     void Attack()
@@ -79,12 +71,6 @@ public class MinotaurAI : MonoBehaviour
         {
             StartCoroutine(StunMinotaur());
             Destroy(collision.gameObject);
-        }
-
-        if(collision.gameObject.CompareTag("Player"))
-        {
-            Destroy(collision.gameObject);
-            SceneManager.LoadScene("LoseScene");
         }
     }
 
