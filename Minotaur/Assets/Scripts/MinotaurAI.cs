@@ -18,11 +18,13 @@ public class MinotaurAI : MonoBehaviour
     [SerializeField] float sightRange, attackRange;
     bool playerInSight, playerInAttack, isStunned;
 
+    public Animator animate;
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("FP Player");
+        animate = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -34,6 +36,11 @@ public class MinotaurAI : MonoBehaviour
         if (!playerInSight && !playerInAttack && !isStunned) Patrol();
         if (playerInSight && !playerInAttack && !isStunned) Chase();
         if (playerInSight && playerInAttack) Attack();
+
+        if(isStunned == true)
+        {
+             animate.SetTrigger("Standing");
+        }
     }
 
     void Attack()
