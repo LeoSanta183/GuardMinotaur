@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class MinotaurAI : MonoBehaviour
 {
@@ -71,6 +72,12 @@ public class MinotaurAI : MonoBehaviour
         {
             StartCoroutine(StunMinotaur());
             Destroy(collision.gameObject);
+        }
+
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            Destroy(collision.gameObject);
+            SceneManager.LoadScene("LoseScene");
         }
     }
 

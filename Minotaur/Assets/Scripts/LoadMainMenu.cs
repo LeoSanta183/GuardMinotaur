@@ -28,6 +28,6 @@ public class LoadMainMenu : MonoBehaviour
     public void LoadScene()
     {
         SceneManager.LoadScene("Main Menu");
-          audioManager.PlaySFX(audioManager.buttonHover);
+        audioManager.PlaySFX(audioManager.buttonHover);
     }
 }
